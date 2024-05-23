@@ -1,0 +1,10 @@
+default-src 'self';
+script-src 'nonce-26dc82fb4e97ca706c90527ffd64eb30' 'self' 'strict-dynamic' 'unsafe-inline' http://*.cdnjs.cloudflare.com https://*.app.termly.io https://*.cdn.jsdelivr.net https://*.cdnjs.cloudflare.com https://*.www.google.com https://*.www.googletagmanager.com https://*.www.lencoarmor.com;
+style-src 'self' 'unsafe-inline' http://*.fonts.googleapis.com https://*.fonts.googleapis.com https://*.www.lencoarmor.com;
+img-src 'self' data: http://*.a57.foxnews.com;
+font-src 'self' http://*.fonts.googleapis.com http://*.fonts.gstatic.com https://*.fonts.googleapis.com https://*.fonts.gstatic.com;
+connect-src 'self' https://*.www.lencoarmor.com;
+frame-src 'self';
+object-src 'none';
+require-trusted-types-for 'script';
+base-uri 'self';

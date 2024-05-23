@@ -1,0 +1,10 @@
+default-src 'self';
+script-src 'nonce-9d9726ae0af365ab2fcf6f8da8ec15ab' 'self' 'strict-dynamic' 'unsafe-inline' https://*.app.termly.io https://*.connect.facebook.net https://*.kidszoo.org https://*.www.facebook.com https://*.www.googletagmanager.com;
+style-src 'self' 'unsafe-inline' https://*.fonts.googleapis.com https://*.kidszoo.org;
+img-src 'self' data:;
+font-src 'self' https://*.kidszoo.org;
+connect-src 'self' https://*.connect.facebook.net;
+frame-src 'self';
+object-src 'none';
+require-trusted-types-for 'script';
+base-uri 'self';

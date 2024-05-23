@@ -1,0 +1,10 @@
+default-src 'self';
+script-src 'nonce-eb33dbf2d195d96fb07641d92312cd6c' 'self' 'strict-dynamic' 'unsafe-inline' https://*.acsbapp.com https://*.apps.bazaarvoice.com https://*.connect.facebook.net https://*.snap.licdn.com https://*.stats.wp.com https://*.summitbrands.com https://*.www.facebook.com https://*.www.google.com;
+style-src 'self' 'unsafe-inline' https://*.summitbrands.com;
+img-src 'self' data: https://*.summitbrands.com;
+font-src 'self' https://*.fonts.gstatic.com;
+connect-src 'self';
+frame-src 'self';
+object-src 'none';
+require-trusted-types-for 'script';
+base-uri 'self';

@@ -1,0 +1,10 @@
+default-src 'self';
+script-src 'nonce-1b83080540e07f6de881778899f50d75' 'self' 'strict-dynamic' 'unsafe-inline' https://*.cdnjs.cloudflare.com https://*.maps.google.com https://*.stats.wp.com https://*.www.google.com https://*.www.googletagmanager.com https://*.www.masterack.com;
+style-src 'self' 'unsafe-inline' https://*.www.masterack.com;
+img-src 'self' data:;
+font-src 'self';
+connect-src 'self';
+frame-src 'self';
+object-src 'none';
+require-trusted-types-for 'script';
+base-uri 'self';
