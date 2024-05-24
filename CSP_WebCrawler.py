@@ -158,7 +158,7 @@ def is_internal_link(link_url, base_url):
     return base_hostname == link_hostname
 
 def main():
-    url = "https://www.doitbestonline.com/"
+    url = "https://www.fcccrv.com/"
     csp = generate_csp_for_url(url)
     if csp:
         filename = get_filename_from_url(url)
